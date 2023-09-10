@@ -1,0 +1,27 @@
+item.explore_mod_bedrock:explorium.name=Explorium
+item.explore_mod_bedrock:explorium_shard.name=Explorium Shard
+
+entity.explore:test_mob1.name=testMob1
+item.spawn_egg.entity.explore:test_mob1.name=Spawn testMob1
+entity.explore:test_mob2.name=testMob1
+item.spawn_egg.entity.explore:test_mob2.name=Spawn testMob1
+entity.explore:test_mob2.name=testMob2
+item.spawn_egg.entity.explore:test_mob2.name=Spawn testMob2
+entity.explore:test_mob3.name=testMob3
+item.spawn_egg.entity.explore:test_mob3.name=Spawn testMob3
+entity.explore:test_mob1.name=Test Mob
+item.spawn_egg.entity.explore:test_mob1.name=Spawn Test Mob
+entity.explore:wrecklin.name=Wrecklin
+item.spawn_egg.entity.explore:wrecklin.name=Spawn Wrecklin
+entity.explore:egg_gobler.name=Egg Gobler
+item.spawn_egg.entity.explore:egg_gobler.name=Spawn Egg Gobler
+entity.explore:grondo.name=Grondo
+item.spawn_egg.entity.explore:grondo.name=Spawn Grondo
+entity.explore:raccoon.name=Raccoon
+item.spawn_egg.entity.explore:raccoon.name=Spawn Raccoon
+entity.explore:treevo.name=Treevo
+item.spawn_egg.entity.explore:treevo.name=Spawn Treevo
+entity.explore:parasite.name=Parasite
+item.spawn_egg.entity.explore:parasite.name=Spawn Parasite
+entity.explore:emply.name=Emply
+item.spawn_egg.entity.explore:emply.name=Spawn Emply

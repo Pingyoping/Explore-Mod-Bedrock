@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Contains various structures to be implemented in the explore mod for Bedrock.",
+        "name": "Structure Pack",
+        "uuid": "3b68aa20-2443-42aa-8d8e-55182c2b71a9",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            14,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "DESC",
+            "type": "data",
+            "uuid": "223b778a-f3bd-47ce-b494-ad87475861a7",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "frg": "Created by the Feature Rule Generator, by MACHINE_BUILDER - do not remove this watermark"
+}

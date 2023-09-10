@@ -1,0 +1,95 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"explore:emply": {
+				"events": {
+					"ambient": "mob.allay.idle",
+					"ambient.tame": "mob.allay.idle_holding",
+					"death": "mob.allay.death",
+					"hurt": "mob.allay.hurt"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"explore:treevo": {
+				"events": {
+					"admire": "mob.piglin.admiring_item",
+					"ambient": "mob.piglin.ambient",
+					"angry": "mob.piglin.angry",
+					"attack": "mob.piglin.attack",
+					"celebrate": "mob.piglin.celebrate",
+					"death": "mob.piglin.death",
+					"hurt": "mob.piglin.hurt",
+					"jealous": "mob.piglin.jealous",
+					"retreat": "mob.piglin.retreat",
+					"step": {
+						"sound": "mob.piglin.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"explore:egg_gobler": {
+				"events": {
+					"ambient": "mob.bat.idle",
+					"death": "mob.bat.death",
+					"hurt": "mob.bat.hurt",
+					"takeoff": {
+						"pitch": [0.8, 1.2],
+						"sound": "mob.bat.takeoff",
+						"volume": 0.05
+					}
+				},
+				"pitch": [0.76, 1.14],
+				"volume": 0.1
+			},
+			"explore:wrecklin": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": "mob.spider.say",
+					"step": {
+						"pitch": [0.9, 1.1],
+						"sound": "mob.spider.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"explore:test_mob3": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"explore:test_mob2": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"ambient.in.water": "mob.axolotl.idle_water",
+					"attack": "mob.axolotl.attack",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"splash": "mob.axolotl.splash",
+					"swim": "mob.axolotl.swim",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "LootTableChest",
+		"description": "Made by Dakonblackrose@youtube",
+		"uuid": "5b2bb1ac-7af4-11eb-9439-0242ac130002",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "5b2bb42c-7af4-11eb-9439-0242ac130002",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
+

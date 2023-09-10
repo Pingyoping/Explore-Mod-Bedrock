@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "explore:emply",
+			"materials": {
+				"default": "allay"
+			},
+			"textures": {
+				"default": "textures/entity/emply"
+			},
+			"geometry": {
+				"default": "geometry.emply"
+			},
+			"spawn_egg": {
+				"base_color": "#f6d900",
+				"overlay_color": "#3dce14"
+			},
+			"animations": {
+				"idle": "animation.emply.idle",
+				"fly": "animation.emply.fly",
+				"hold_item": "animation.emply.hold_item",
+				"general": "controller.animation.allay.general",
+				"holding": "controller.animation.allay.holding"
+			},
+			"scripts": {
+				"pre_animation": ["variable.holding_trident = query.is_item_name_any('slot.weapon.mainhand', 'minecraft:trident');"],
+				"animate": ["general", "holding"]
+			},
+			"render_controllers": ["controller.render.allay"],
+			"enable_attachables": true
+		}
+	}
+}

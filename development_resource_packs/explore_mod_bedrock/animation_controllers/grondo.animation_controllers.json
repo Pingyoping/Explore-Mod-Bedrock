@@ -1,0 +1,43 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.grondo.move": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": [
+						"idle",
+						{"hurt": "q.health < 8"}
+					],
+					"transitions": [
+						{"walking": "q.ground_speed > 1.0"},
+						{"celebrate": "q.is_interested"},
+						{"sitting": "q.is_sitting"}
+					],
+					"blend_transition": 0.2
+				},
+				"walking": {
+					"animations": ["walk"],
+					"transitions": [
+						{"idle": "q.ground_speed < 0.5"}
+					],
+					"blend_transition": 0.2
+				},
+				"celebrate": {
+					"animations": ["celebrate"],
+					"transitions": [
+						{"idle": "!q.is_interested"}
+					],
+					"blend_transition": 0.2
+				},
+				"sitting": {
+					"animations": ["sitting"],
+					"transitions": [
+						{"idle": "!q.is_sitting"}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		}
+	}
+}

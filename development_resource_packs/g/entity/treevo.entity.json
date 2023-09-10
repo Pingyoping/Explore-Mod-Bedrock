@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "explore:treevo",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/treevo"
+			},
+			"geometry": {
+				"default": "geometry.treevo"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#176914",
+				"overlay_color": "#835d33"
+			}
+		}
+	}
+}

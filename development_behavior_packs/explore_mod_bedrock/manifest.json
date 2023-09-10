@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "",
+		"name": "Explore Mod Bedrock",
+		"uuid": "8844d9d7-49f1-34b9-b844-983d1008035c",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 0]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "dda3eca8-698c-38d1-943c-f91717f8b93d",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a25474e2-94ee-303b-b7ba-1ea3e66187f8",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"authors": ["frank, MCreator"],
+		"url": "https://mcreator.net",
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	}
+}

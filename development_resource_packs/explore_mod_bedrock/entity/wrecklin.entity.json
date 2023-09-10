@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "explore:wrecklin",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/wrecklin"
+			},
+			"geometry": {
+				"default": "geometry.wrecklin"
+			},
+			"animations": {
+				"default_leg_pose": "animation.wrecklin.default_leg_pose",
+				"look_at_target": "animation.wrecklin.look_at_target",
+				"walk": "animation.wrecklin.walk",
+				"sway": "animation.wrecklin.sway",
+				"attack": "animation.wrecklin.attack"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.wrecklin.move"
+				}
+			],
+			"render_controllers": ["controller.render.spider"],
+			"spawn_egg": {
+				"base_color": "#0c4329",
+				"overlay_color": "#956c6c"
+			}
+		}
+	}
+}

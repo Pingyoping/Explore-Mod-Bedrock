@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ghdfk:fjd",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/fjd"
+			},
+			"geometry": {
+				"default": "geometry.fjd"
+			},
+			"animations": {
+				"walk": "animation.fjd.walk",
+				"move": "animation.fjd.move",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.fjd.baby_transform"
+			},
+			"scripts": {
+				"scale": "1.2"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.polarbear.move"
+				},
+				{
+					"baby": "controller.animation.polarbear.baby"
+				}
+			],
+			"render_controllers": ["controller.render.polarbear"],
+			"spawn_egg": {
+				"base_color": "#964415",
+				"overlay_color": "#e86ef2"
+			}
+		}
+	}
+}

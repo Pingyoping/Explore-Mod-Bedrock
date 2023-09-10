@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "explore:grondo",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/grondo"
+			},
+			"geometry": {
+				"default": "geometry.grondo"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#61461a",
+				"overlay_color": "#328f20"
+			},
+			"animations": {
+                "look_at_target": "animation.common.look_at_target",
+                "walk": "animation.grondo.walk",
+				"celebrate": "animation.grondo.celebrate",
+				"idle": "animation.grondo.idle",
+				"sitting": "animation.grondo.sitting",
+				"hurt": "animation.grondo.hurt",
+                "move": "controller.animation.grondo.move"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target",
+                    "move"
+                ]
+            }
+		}
+	}
+}

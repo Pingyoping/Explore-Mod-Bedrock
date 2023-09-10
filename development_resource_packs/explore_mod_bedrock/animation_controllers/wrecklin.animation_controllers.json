@@ -1,0 +1,36 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.wrecklin.move": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["sway", "default_leg_pose", "look_at_target"],
+					"sound_effects": [
+						{"effect": ""}
+					],
+					"transitions": [
+						{"walking": "q.ground_speed > .2"},
+						{"attack_state": "query.is_angry"}
+					],
+					"blend_transition": 0.1
+				},
+				"attack_state": {
+					"animations": ["attack"],
+					"transitions": [
+						{"walking": "variable.attack_time == 0\n"}
+					],
+					"blend_transition": 0.1
+				},
+				"walking": {
+					"animations": ["walk", "", ""],
+					"transitions": [
+						{"idle": "q.ground_speed < 0.2"},
+						{"attack_state": "variable.attack_time > 0"}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}
