@@ -11,8 +11,8 @@
         ],
         "min_engine_version": [
             1,
-            14,
-            0
+            20,
+            30
         ]
     },
     "modules": [
@@ -26,6 +26,5 @@
                 1
             ]
         }
-    ],
-    "frg": "Created by the Feature Rule Generator, by MACHINE_BUILDER - do not remove this watermark"
+    ]
 }

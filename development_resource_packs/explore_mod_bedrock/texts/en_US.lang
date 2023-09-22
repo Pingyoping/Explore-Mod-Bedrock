@@ -25,3 +25,7 @@ entity.explore:parasite.name=Parasite
 item.spawn_egg.entity.explore:parasite.name=Spawn Parasite
 entity.explore:emply.name=Emply
 item.spawn_egg.entity.explore:emply.name=Spawn Emply
+entity.explore:evil_tree.name=Evil Tree
+item.spawn_egg.entity.explore:evil_tree.name=Spawn Evil Tree
+entity.explore:mimic.name=Mimic
+item.spawn_egg.entity.explore:mimic.name=Spawn Mimic

@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:item": {
     "description": {
-      "identifier": "explore:explorium",
+      "identifier": "explore_mod_bedrock:explorium",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

@@ -64,7 +64,7 @@
 				"damage": 4
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/wrecklin.json"
+				"table": "loot_tables/entities/wrecklin.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}

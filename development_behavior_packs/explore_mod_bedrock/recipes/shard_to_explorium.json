@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "explore_mod_bedrock:shard_to_explorium"
+    },
+    "groups": [
+      "explore_mod_bedrock"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "1": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "2": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "3": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "4": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "5": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "6": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "7": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      },
+      "8": {
+        "item": "explore_mod_bedrock:explorium_shard"
+      }
+    },
+    "result": {
+      "item": "explore_mod_bedrock:explorium",
+      "count": 1
+    }
+  }
+}

@@ -84,7 +84,7 @@
           },
           {
             "type": "item",
-            "name": "explore:explorium_shard",
+            "name": "explore_mod_bedrock:explorium_shard",
             "weight": 2,
             "functions": [
               {

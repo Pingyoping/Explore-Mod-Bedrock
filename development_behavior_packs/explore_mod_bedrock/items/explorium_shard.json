@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:item": {
     "description": {
-      "identifier": "explore:explorium_shard",
+      "identifier": "explore_mod_bedrock:explorium_shard",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "explore_mod_bedrock:explorium_to_shard"
+    },
+    "groups": [
+      "explore_mod_bedrock"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "explore_mod_bedrock:explorium"
+      }
+    ],
+    "result": {
+      "item": "explore_mod_bedrock:explorium_shard",
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "explore:evil_tree",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/evil_tree"
+			},
+			"geometry": {
+				"default": "geometry.evil_tree"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#5f4812",
+				"overlay_color": "#02a227"
+			}
+		}
+	}
+}

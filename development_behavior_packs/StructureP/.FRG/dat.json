@@ -52,6 +52,52 @@
             "structure_type": "basic structure",
             "structure_name": "marsh_ruin",
             "structure_display_name": "Marsh Ruin"
+        },
+        {
+            "filepaths": [
+                "C:\\Users\\frank\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\StructureP\\structures\\nbt_test.mcstructure",
+                "C:\\Users\\frank\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\StructureP\\feature_rules\\nbt_test_feature_rule.json",
+                "C:\\Users\\frank\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\StructureP\\features\\nbt_test_feature_mcstructure.json"
+            ],
+            "settings": {
+                "spawning_method": 1,
+                "spawn_chance": 5,
+                "name": "Nbt_test",
+                "include_air": false,
+                "grounded": false,
+                "y_offset": 0
+            },
+            "biomes": [
+                [],
+                []
+            ],
+            "structure_type": "basic structure",
+            "structure_name": "nbt_test",
+            "structure_display_name": "Nbt Test"
+        },
+        {
+            "filepaths": [
+                "C:\\Users\\frank\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\StructureP\\structures\\quarry.mcstructure",
+                "C:\\Users\\frank\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\StructureP\\feature_rules\\quarry_feature_rule.json",
+                "C:\\Users\\frank\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\StructureP\\features\\quarry_feature_mcstructure.json"
+            ],
+            "settings": {
+                "spawning_method": 1,
+                "spawn_chance": 0.5,
+                "name": "Quarry",
+                "include_air": false,
+                "grounded": true,
+                "y_offset": -3
+            },
+            "biomes": [
+                [
+                    "savanna"
+                ],
+                []
+            ],
+            "structure_type": "basic structure",
+            "structure_name": "quarry",
+            "structure_display_name": "Quarry"
         }
     ]
 }
